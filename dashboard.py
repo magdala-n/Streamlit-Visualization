@@ -58,6 +58,13 @@ def load_data():
     return day_data, hour_data
 
 day_data, hour_data = load_data()
+LOGO_URL="https://github.com/magdala-n/Streamlit-Visualization/blob/main/logo_bangkit.png"
+
+st.logo(
+    LOGO_URL,
+    link="https://github.com/magdala-n/Streamlit-Visualization/blob/main/logo_bangkit.png",
+    icon_image=LOGO_URL,
+)
 
 st.title('Bike Sharing Data Analysis')
 
